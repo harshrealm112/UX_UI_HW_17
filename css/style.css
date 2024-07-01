@@ -1,0 +1,26 @@
+  li{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .header {
+    background-color: maroon;
+    color: white;
+    border: 2px solid black;
+    margin: 20px; 
+    padding: 20px;
+    width: 73%;
+    padding: 1%;
+  }
+  .heroImg {
+    height: 600px;
+    padding: 25px;
+    width: 500px;
+    margin: 0 auto;
+  }
+.footer {
+background-color: #373738;
+display: inline-block;
+vertical-align: top;
+
+
+}
