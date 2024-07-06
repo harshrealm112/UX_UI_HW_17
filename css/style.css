@@ -21,6 +21,8 @@
   height: auto;
   margin: 0 5%;
 }
+
+
 .headerText{
   background-color: maroon;
   height: 50px;
@@ -111,4 +113,10 @@ text-decoration: none;
 }
 .button:focus{
   outline: dotted 3px rgb(26,53,206);
+}
+@media screen and (max-width: 600px) {
+  .cdLayout {
+      grid-template-columns: 1fr;
+  }
+  
 }
