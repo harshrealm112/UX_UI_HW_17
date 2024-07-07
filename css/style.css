@@ -9,12 +9,12 @@
     background-color: maroon;
     color: white;
     border: 2px solid black;
-        }
+           }
    
   .heroImg {
     height: auto;
     width: 100%;
-    }
+      }
 
 .logoImg{
   width: 20%;
@@ -44,19 +44,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.ftBarleftLi {
-  background-color: maroon;
-width: auto;
-}
-.ftBarcenterLi{
-background-color: maroon;
-width: auto;
-text-decoration: none;
-}
-.ftBarrightLi{
-  background-color: maroon;
-   width: auto;
-  }
+
   .footer{
     background-color: maroon;
     color: white;
@@ -65,16 +53,22 @@ text-decoration: none;
   }
   .bottomNav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
+    grid-row-gap: 10px;
+    text-align: left;
     text-decoration: none;
-  }
+   }
   
   hr{
-    width: 30%;
+    width: 40%;
     margin: 2% 0;
 
   }
-  
+  .CopyRight{
+    text-align: center;
+    padding: 10px 0 0 2%;
+ 
+  }
   .cdLayout{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -82,6 +76,10 @@ text-decoration: none;
     margin: 2% 0;
     padding: 1 2%;
     background-color: white;
+  }
+  .textCD {
+    padding: 1% 3%;
+    text-align: justify;
   }
   
   .imgSize {
@@ -106,6 +104,7 @@ text-decoration: none;
   border: 3px solid black;
   background-color: white;
   padding: 15px 25px;
+  margin: 0 0 10px 0;
 }
 .button:hover {
   background-color: black;
@@ -114,9 +113,23 @@ text-decoration: none;
 .button:focus{
   outline: dotted 3px rgb(26,53,206);
 }
+.footerText{
+  text-decoration: none;
+}
 @media screen and (max-width: 600px) {
   .cdLayout {
       grid-template-columns: 1fr;
+
   }
-  
+  .bottomNav {
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  text-align: center;
+}
+hr{
+  width: 100%;
+}
+.bottomElephant {
+  margin: 5% 15%;
+}
 }
